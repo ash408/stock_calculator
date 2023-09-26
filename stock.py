@@ -1,6 +1,6 @@
 
 
-class Stock:
+class Position:
 
 	def __init__(self, purchace_mark):
 		self.purchace_mark = purchace_mark
