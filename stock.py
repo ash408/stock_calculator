@@ -1,5 +1,14 @@
 
 
+class Stock:
+
+	def __init__(self, mark):
+		self.mark = mark
+
+	def change_mark(self, amount):
+		self.mark += amount
+
+
 class Position:
 
 	def __init__(self, purchace_mark):
