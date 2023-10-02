@@ -9,9 +9,11 @@ class Stock:
 		self.mark += amount
 
 
-class Position:
+class Position (Stock):
 
-	def __init__(self, purchace_mark):
+	def __init__(self, mark, purchace_mark):
+		super(mark)
+
 		self.purchace_mark = purchace_mark
 
 	def calculate_profit_mark(percentage):
